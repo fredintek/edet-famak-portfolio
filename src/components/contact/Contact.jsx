@@ -41,7 +41,11 @@ const Contact = () => {
             <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>edetfamak @fredintek.com</h5>
-            <a href="mailto:edetfamak@fredintek.com" target="_blank">
+            <a
+              href="mailto:edetfamak@fredintek.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -49,7 +53,7 @@ const Contact = () => {
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>fredintek tutorials</h5>
-            <a href="https://m.me/edet.famak" target="_blank">
+            <a href="https://m.me/edet.famak" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -60,6 +64,7 @@ const Contact = () => {
             <a
               href="https://api.whatsapp.com/send?phone=+123445566"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>

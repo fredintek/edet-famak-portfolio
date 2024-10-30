@@ -13,8 +13,8 @@ const Nav = () => {
   return (
     <nav>
       <a
-        onClick={() => setActiveNav("#")}
         href="#"
+        onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
         <AiTwotoneHome />
